@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AJAX Search</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+<div id="page">
+    <div class="headline">
+        <h1>Incremental AJAX Search</h1>
+    </div>
+    <div class="searcher">
+        <input type="text" id="search-field">
+        <ul id="list-group">
+            <div id="variants">
+            </div>
+        </ul>
+    </div>
+</div>
+<script src="connection/JSONServerConnection.js"></script>
+<script src="listener/EventEmitter.js"></script>
+<script src="Model.js"></script>
+<script src="View.js"></script>
+<script src="init.js"></script>
+</body>
+</html>

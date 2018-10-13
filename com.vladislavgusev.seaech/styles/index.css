@@ -1,0 +1,43 @@
+#page {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.searcher{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#search-field{
+    margin: 0;
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+
+#list-group{
+    margin: 0;
+    padding: 0;
+}
+
+#variants{
+    border: 1px solid black;
+    box-shadow: 0 0 1px #c6d2ed;
+}
+
+#list-group li{
+    list-style-type: none;
+    padding: 1px 5px;
+    cursor: pointer;
+}
+
+#list-group li:hover{
+    background: #91eaed;
+}
+
+#list-group li:active{
+    background: #9dfafd;
+}
