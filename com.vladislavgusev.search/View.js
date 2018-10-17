@@ -17,7 +17,7 @@ function View(model) {
         /*добавление событий элементам*/
         function event(){
             that.search.onkeyup = function () {
-                that.model.search(this.value);
+                that.model.search(new Message(this.value));
             }
         }
 
