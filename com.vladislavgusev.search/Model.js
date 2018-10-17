@@ -35,7 +35,8 @@ Model.prototype = {
         }).then(function (findVariants) {
             that.onSearcher.notify(findVariants);               //посылаем все отфильтрованные варианты в listener
         }).catch(function(error){
-            console.log(error);
+            that.onSearcher.notify([]);
+            console.error(error);
         });
     }
 };
